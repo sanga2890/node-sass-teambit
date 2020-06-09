@@ -19,3 +19,9 @@ button {
         margin-right: 10px;
     }
 }
+
+.clearfix {
+    content: '';
+    clear: both;
+    display: table;
+}

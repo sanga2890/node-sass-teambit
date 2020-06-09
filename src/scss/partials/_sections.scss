@@ -1,11 +1,15 @@
-section {
+#how-works {
     text-align: center;
     background-color: $back_theme;
     padding-bottom: 100px;
 
     h2 {
-        padding-bottom: 80px;
-        padding-top: 80px;
+        padding: 80px 250px;
+    }
+
+    h2.last{
+        padding-top: 120px;
+        padding-bottom: 0;
     }
 
     h4 {
@@ -45,7 +49,71 @@ section {
     }
 
     .container.first {
-        border-bottom: 1px solid lightgrey;
-        padding-bottom: 100px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+        padding-bottom: 120px;
+    }
+}
+
+#screenshots {
+
+    h3 {
+        @include h3_style($h3_size, $h3_weight, $h3_line_height);
+    }
+    padding-top: 100px;
+
+    .window-img {
+        width: 50%;
+
+        img {
+            max-width: 768px;
+        }
+    }
+
+    .description {
+        width: 50%;
+
+        img {
+            max-width: 270px;
+        }
+
+        h2,h3,img {
+            width: 40%;
+        }
+
+        h2, h3 {
+            text-align: left;
+        }
+    }
+
+    .row {
+        display: flex;
+        margin-bottom: 150px;
+    }
+
+    .row.left {
+        .window-img {
+            display: flex;
+            justify-content: flex-end;
+            padding-right: 20px;
+        }
+
+        .description {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    }
+    .row.right {
+        .window-img {
+            display: flex;
+            justify-content: flex-start;
+            padding-left: 20px;
+        }
+
+        .description {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
     }
 }
