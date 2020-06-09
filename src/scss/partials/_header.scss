@@ -1,22 +1,46 @@
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     height: 75px;
-    border-bottom: 1px solid rgba(0,0,0,0.3);
+    width: 100%;
+    position: fixed;
 
     img {
         width: 110px;
     }
 
-    .header-right li{
-        display: inline-block;
-        margin-left: 40px;
+    .header-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid rgba(0,0,0,0.3);
+    }
 
-        a {
-            text-decoration: none;
-            color: black;
-        }
+
+
+    .header-right li {
+            display: inline-block;
+            line-height: 75px;
+            margin-left: 40px;
+
+
+            a {
+                text-decoration: none;
+                font-size: 13px;
+                font-weight: 600;
+                color: $font_color_theme;
+            }
+
+            a.signup {
+                border: 1px solid #30488f;
+                border-radius: 8px;
+                padding: 7px 10px;
+                color: #30488f;
+
+                img {
+                    width: 18px;
+                    margin-right: 10px;
+                    vertical-align: middle;
+                }
+            }
     }
 
 

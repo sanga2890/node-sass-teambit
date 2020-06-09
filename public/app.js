@@ -115,8 +115,8 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/ste/Documenti/Boolean/esercizi/node-sass-teambit/src/js/app.js */"./src/js/app.js");
-module.exports = __webpack_require__(/*! /home/ste/Documenti/Boolean/esercizi/node-sass-teambit/src/scss/app.scss */"./src/scss/app.scss");
+__webpack_require__(/*! C:\Users\stefa\OneDrive\Documents\Boolean\esercizi\node-sass-teambit\src\js\app.js */"./src/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\stefa\OneDrive\Documents\Boolean\esercizi\node-sass-teambit\src\scss\app.scss */"./src/scss/app.scss");
 
 
 /***/ })

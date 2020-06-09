@@ -1,0 +1,5 @@
+@mixin h3_style ($h3_size, $h3_weight, $h3_line_height) {
+    font-size: $h3_size;
+    font-weight: $h3_weight;
+    line-height: $h3_line_height;
+}
