@@ -1,0 +1,42 @@
+footer {
+
+    padding-top: 100px;
+
+    .footer {
+        display: flex;
+    }
+
+
+    .footer-left {
+        width: 40%;
+        padding-right: 100px;
+
+        img  {
+            width: 50px;
+        }
+    }
+
+    .footer-right {
+        display: flex;
+        width: 60%;
+
+        ul {
+            width: 20%;
+            list-style: none;
+
+        }
+
+        li {
+            font-size: 13px;
+            margin: 20px 5px;
+
+            &:first-child {
+                font-size: 17px;
+                font-weight: 500;
+
+            }
+        }
+
+
+    }
+}

@@ -32,8 +32,6 @@
             margin-right: 10px;
             margin-bottom: 100px;
 
-
-
             img {
                 width: 140px;
                 height: 100px;
@@ -54,10 +52,12 @@
     }
 }
 
+
 #screenshots {
 
     h3 {
         @include h3_style(20px, 400, 1.5);
+        margin-top: 20px;
     }
     padding-top: 100px;
 
@@ -74,14 +74,23 @@
 
         img {
             max-width: 270px;
+            margin-left: 50px;
+            margin-right: 50px;
         }
 
-        h2,h3,img {
-            width: 40%;
+        h2,h3,a,img {
+            width: 70%;
         }
 
-        h2, h3 {
+        h2, h3, a {
             text-align: left;
+        }
+
+        a {
+            text-decoration: none;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            font-size: 20px;
         }
     }
 
@@ -114,6 +123,76 @@
             display: flex;
             flex-direction: column;
             align-items: flex-end;
+        }
+    }
+
+    .row:last-child {
+        margin-bottom: 60px;
+    }
+}
+
+#get-started {
+    background-color: $back_theme;
+    padding-bottom: 50px;
+
+    h2 {
+        text-align: center;
+        font-size: 37px;
+        font-weight: 500;
+        padding-top: 80px;
+        margin-bottom: 50px;
+    }
+
+
+    .quote {
+        width: 55%;
+        background-color: #fff;
+        border: 1px solid $font_color_theme;
+        border-radius: 8px;
+        margin: auto;
+        padding: 20px 30px;
+        text-align: left;
+        margin-bottom: 40px;
+
+    }
+
+    img.profile {
+        width: 40px;
+        vertical-align: middle;
+        margin-right: 10px;
+        margin-top: 30px;
+    }
+
+    .names {
+        display: inline-block;
+        vertical-align: middle;
+        margin-top: 30px;
+
+        .who {
+            font-size: 14px;
+            color: blue;
+        }
+
+        .profession {
+            font-size: 13px;
+        }
+    }
+
+    .form {
+        margin: auto;
+        text-align: center;
+
+        span {
+            font-size: 13px;
+            font-weight: 400;
+            opacity: 0.5;
+            padding: 10px;
+        }
+
+        p {
+            font-size: 13px;
+            font-weight: 400;
+            margin-top: 20px;
         }
     }
 }

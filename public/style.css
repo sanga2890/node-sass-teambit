@@ -190,6 +190,7 @@ header .header-right li a.signup img {
   font-size: 20px;
   font-weight: 400;
   line-height: 1.5;
+  margin-top: 20px;
 }
 
 #screenshots .window-img {
@@ -206,17 +207,28 @@ header .header-right li a.signup img {
 
 #screenshots .description img {
   max-width: 270px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 #screenshots .description h2,
 #screenshots .description h3,
+#screenshots .description a,
 #screenshots .description img {
-  width: 40%;
+  width: 70%;
 }
 
 #screenshots .description h2,
-#screenshots .description h3 {
+#screenshots .description h3,
+#screenshots .description a {
   text-align: left;
+}
+
+#screenshots .description a {
+  text-decoration: none;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 20px;
 }
 
 #screenshots .row {
@@ -246,5 +258,110 @@ header .header-right li a.signup img {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+}
+
+#screenshots .row:last-child {
+  margin-bottom: 60px;
+}
+
+#get-started {
+  background-color: #ffe7d2;
+  padding-bottom: 50px;
+}
+
+#get-started h2 {
+  text-align: center;
+  font-size: 37px;
+  font-weight: 500;
+  padding-top: 80px;
+  margin-bottom: 50px;
+}
+
+#get-started .quote {
+  width: 55%;
+  background-color: #fff;
+  border: 1px solid #58402c;
+  border-radius: 8px;
+  margin: auto;
+  padding: 20px 30px;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+#get-started img.profile {
+  width: 40px;
+  vertical-align: middle;
+  margin-right: 10px;
+  margin-top: 30px;
+}
+
+#get-started .names {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 30px;
+}
+
+#get-started .names .who {
+  font-size: 14px;
+  color: blue;
+}
+
+#get-started .names .profession {
+  font-size: 13px;
+}
+
+#get-started .form {
+  margin: auto;
+  text-align: center;
+}
+
+#get-started .form span {
+  font-size: 13px;
+  font-weight: 400;
+  opacity: 0.5;
+  padding: 10px;
+}
+
+#get-started .form p {
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+footer {
+  padding-top: 100px;
+}
+
+footer .footer {
+  display: flex;
+}
+
+footer .footer-left {
+  width: 40%;
+  padding-right: 100px;
+}
+
+footer .footer-left img {
+  width: 50px;
+}
+
+footer .footer-right {
+  display: flex;
+  width: 60%;
+}
+
+footer .footer-right ul {
+  width: 20%;
+  list-style: none;
+}
+
+footer .footer-right li {
+  font-size: 13px;
+  margin: 20px 5px;
+}
+
+footer .footer-right li:first-child {
+  font-size: 17px;
+  font-weight: 500;
 }
 
