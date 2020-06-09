@@ -16,7 +16,7 @@
         }
 
         h3{
-            @include h3_style($h3_size, $h3_weight, $h3_line_height);
+            @include h3_style(20px, 400, 1.5);
             padding-bottom: 40px;
         }
 
